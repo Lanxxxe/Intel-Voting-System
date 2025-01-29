@@ -15,7 +15,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className=' flex items-center justify-center h-full'>
+    <div className=' flex items-center justify-center h-screen'>
       <img src={heroPage} className='h-[70%] rounded' alt="" />
       <div className='w-1/2 py-6 px-12 text-slate-300'>
         <h1 className='font-bold text-4xl'>Your Vote Shapes the Future of Your Organization!</h1>
