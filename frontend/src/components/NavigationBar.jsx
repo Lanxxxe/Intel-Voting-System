@@ -34,11 +34,11 @@ const NavigationBar = () => {
                   Home
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to='about' className="block py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                   About
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to='organization' className="block py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                   Organization
@@ -50,7 +50,7 @@ const NavigationBar = () => {
                 </Link>
               </li>
               <li>
-              <a href="" className='underline underline-offset-4 block md:hidden text-red-400 flex gap-px items-center mt-2'> 
+              <a href="" className='underline underline-offset-4  md:hidden text-red-400 flex gap-px items-center mt-2'> 
                 <PowerIcon className='h-5 mt-px' /> 
                 <span className='m-0'>Logout</span>
               </a>
@@ -59,7 +59,7 @@ const NavigationBar = () => {
           </div>
 
                     
-          <a href="" className='underline underline-offset-4 hidden md:flex text-red-400 flex gap-px items-center mt-2'> 
+          <a href="" className='underline underline-offset-4 hidden md:flex text-red-400 gap-px items-center mt-2'> 
             <PowerIcon className='h-5 mt-px' /> 
             <span className='m-0'>Logout</span>
           </a>
